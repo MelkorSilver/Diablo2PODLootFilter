@@ -238,6 +238,8 @@ ItemDisplay[CL6 !ETH SK52>1]: %NAME% %ORANGE%+Enflame
 ItemDisplay[CL6 !ETH SK60>1]: %NAME% %ORANGE%+Chilling Armor
 ItemDisplay[CL6 !ETH (SK63>2 AND SK49>2)]: %NAME% %ORANGE%+Lightning Skills 3 %RED%[%SOCKETS%]
 ItemDisplay[CL6 !ETH (SK63>2 AND SK49>2)]: %NAME% %ORANGE%+Lightning Skills 3 %RED%[%SOCKETS%]
+
+//Magic Sorc orbs//
 ItemDisplay[MAG CL6 !ETH !ID]: %BLUE%%NAME% %YELLOW%+Sorc
 
 ////Assassin Claws////
