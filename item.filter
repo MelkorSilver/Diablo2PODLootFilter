@@ -87,8 +87,9 @@ ItemDisplay[INF !RW !leg]:
 
 ////RUNES
 ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07)]: %ORANGE%** %RUNENAME% ** [%RUNENUM%]
-ItemDisplay[(r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16)]: %NL%%MAP%%ORANGE%** %RUNENAME% ** [%RUNENUM%]%NL%
-ItemDisplay[(r17 OR r18 OR r19 OR r20)]: %MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]
+ItemDisplay[(r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16)]: %MAP%%ORANGE%** %RUNENAME% ** [%RUNENUM%]
+ItemDisplay[(r17 OR r18 OR r19)]: %MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]
+ItemDisplay[r20]: %NL%%MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]%NL%
 ItemDisplay[(r21 OR r22 OR r23 OR r24 OR r25 OR r26)]: %NL%%NL%         %MAP%%PURPLE%|*****| %RUNENAME% |*****| [%RUNENUM%]         %NL%%NL%
 ItemDisplay[(r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33]: %NL%%NL%         %MAP%%PURPLE%|*******| %RUNENAME% |*******| [%RUNENUM%]         %NL%%NL%
 
@@ -167,9 +168,9 @@ ItemDisplay[MAG (xit OR uit)]: %NAME%%GREEN% [S]
 ItemDisplay[MAG (xmg OR umg)]: %NAME%%BLUE% [H]
 
 //PURPLE UNIQUES
-ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %MAP%%PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %MAP%%PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %MAP%%GRAY%ETH %PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %NL%%NL%         %MAP%%PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤         %NL%%NL%
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %NL%%NL%         %MAP%%PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤         %NL%%NL%
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %NL%%MAP%%GRAY%ETH %PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%
 ItemDisplay[UNI lbl !ID !ETH]: %NAME%
 ItemDisplay[UNI lbl !ID ETH]: %NAME%
 
