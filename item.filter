@@ -167,8 +167,10 @@ ItemDisplay[MAG (xmg OR umg)]: %NAME%%BLUE% [H]
 
 //PURPLE UNIQUES
 ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %MAP%%PURPLE%Ã‚Â¤ÃƒËœÃƒËœÃƒËœÃ‚Â¤ %NAME% Ã‚Â¤ÃƒËœÃƒËœÃƒËœÃ‚Â¤
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR lbl OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %MAP%%PURPLE%Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ %NAME% Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR lbl OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %MAP%%GRAY%ETH %PURPLE%Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ %NAME% Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %MAP%%PURPLE%Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ %NAME% Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %MAP%%GRAY%ETH %PURPLE%Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ %NAME% Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤
+ItemDisplay[UNI lbl !ID !ETH]: %NAME%
+ItemDisplay[UNI lbl !ID ETH]: %NAME%
 
 //RED UNIQUES
 ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR uhg OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR 8lw OR uml OR xpk OR 7sp OR bac OR xtp OR nef OR 6sw OR uts) !ID !ETH]: %MAP%%RED%Â¤Â¤Â¤Â¤Â¤Â¤ %NAME% Â¤Â¤Â¤Â¤Â¤Â¤
