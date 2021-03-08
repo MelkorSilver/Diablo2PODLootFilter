@@ -2,6 +2,7 @@
 //Find item orginal codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 //Modified by Melkor for season 11 POD (Updated 08/03/2021)
 
+
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[CLVL<5 GOLD<50]:
 ItemDisplay[CLVL<10 GOLD<100]:
@@ -86,10 +87,10 @@ ItemDisplay[INF !RW !leg]:
 
 ////RUNES
 ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07)]: %ORANGE%** %RUNENAME% ** [%RUNENUM%]
-ItemDisplay[(r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16)]: %MAP%%ORANGE%** %RUNENAME% ** [%RUNENUM%]
+ItemDisplay[(r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16)]: %NL%%MAP%%ORANGE%** %RUNENAME% ** [%RUNENUM%]%NL%
 ItemDisplay[(r17 OR r18 OR r19 OR r20)]: %MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]
-ItemDisplay[(r21 OR r22 OR r23 OR r24 OR r25 OR r26)]: %MAP%%PURPLE%|*****| %RUNENAME% |*****| [%RUNENUM%]
-ItemDisplay[(r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33]: %MAP%%PURPLE%|*******| %RUNENAME% |*******| [%RUNENUM%]
+ItemDisplay[(r21 OR r22 OR r23 OR r24 OR r25 OR r26)]: %NL%%NL%         %MAP%%PURPLE%|*****| %RUNENAME% |*****| [%RUNENUM%]         %NL%%NL%
+ItemDisplay[(r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33]: %NL%%NL%         %MAP%%PURPLE%|*******| %RUNENAME% |*******| [%RUNENUM%]         %NL%%NL%
 
 //GEMS
 //Gems Chipped
@@ -166,15 +167,15 @@ ItemDisplay[MAG (xit OR uit)]: %NAME%%GREEN% [S]
 ItemDisplay[MAG (xmg OR umg)]: %NAME%%BLUE% [H]
 
 //PURPLE UNIQUES
-ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %MAP%%PURPLE%Ã‚Â¤ÃƒËœÃƒËœÃƒËœÃ‚Â¤ %NAME% Ã‚Â¤ÃƒËœÃƒËœÃƒËœÃ‚Â¤
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %MAP%%PURPLE%Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ %NAME% Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %MAP%%GRAY%ETH %PURPLE%Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ %NAME% Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤
+ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %MAP%%PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %MAP%%PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %MAP%%GRAY%ETH %PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[UNI lbl !ID !ETH]: %NAME%
 ItemDisplay[UNI lbl !ID ETH]: %NAME%
 
 //RED UNIQUES
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR uhg OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR 8lw OR uml OR xpk OR 7sp OR bac OR xtp OR nef OR 6sw OR uts) !ID !ETH]: %MAP%%RED%Â¤Â¤Â¤Â¤Â¤Â¤ %NAME% Â¤Â¤Â¤Â¤Â¤Â¤
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR uhg OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr OR 7bk OR uml OR xpk) !ID ETH]: %MAP%%GRAY%ETH %RED%Â¤Â¤Â¤Â¤Â¤Â¤ %NAME% Â¤Â¤Â¤Â¤Â¤Â¤
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR uhg OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR 8lw OR uml OR xpk OR 7sp OR bac OR xtp OR nef OR 6sw OR uts) !ID !ETH]: %MAP%%RED%¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR uhg OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr OR 7bk OR uml OR xpk) !ID ETH]: %MAP%%GRAY%ETH %RED%¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤
 
 //UNIQUE CHARMS
 ItemDisplay[UNI (cm1 OR cm2 OR cm3 OR cm4) !ID]: %ORANGE%*** %NAME% ***
@@ -188,18 +189,18 @@ ItemDisplay[UNI SOCK>0]: %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[UNI]: %NAME%
 
 //SET ITEMS
-ItemDisplay[SET !ID (uh9 OR xul OR utc OR xmg OR ne9)]: %RED%Ã‚Â¤Ã‚Â¤ %GREEN%%NAME% %RED%Ã‚Â¤Ã‚Â¤
-ItemDisplay[SET !ID (xmb OR xh9 OR 7qr OR ucl)]: %RED%Ã‚Â¤Ã‚Â¤ %GREEN%%NAME% %RED%Ã‚Â¤Ã‚Â¤
-ItemDisplay[SET !ID (ci3 OR amc)]: %RED%Ã‚Â¤Ã‚Â¤ %GREEN%%NAME% %RED%Ã‚Â¤Ã‚Â¤
-ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%Ã‚Â¤Ã‚Â¤ %GREEN%%NAME% %RED%Ã‚Â¤Ã‚Â¤
+ItemDisplay[SET !ID (uh9 OR xul OR utc OR xmg OR ne9)]: %RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤
+ItemDisplay[SET !ID (xmb OR xh9 OR 7qr OR ucl)]: %RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤
+ItemDisplay[SET !ID (ci3 OR amc)]: %RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤
+ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤
 ItemDisplay[SET (amu OR rin) !ID ]: %GREEN%%NAME%
 ItemDisplay[SET !ID]: %GREEN%%NAME%
 ItemDisplay[SET SOCK>0]: %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[SET]: %NAME%
 
 //RARES
-ItemDisplay[RARE (rin OR amu OR jew OR EQ7) !ETH !ID]: %YELLOW%Ã‚Â¤Ã‚Â¤ %NAME% %RED%Ã‚Â¤Ã‚Â¤
-ItemDisplay[RARE ETH EQ7 !ID]: %GRAY%ETH %YELLOW%Ã‚Â¤Ã‚Â¤ %NAME% %RED%Ã‚Â¤Ã‚Â¤
+ItemDisplay[RARE (rin OR amu OR jew OR EQ7) !ETH !ID]: %YELLOW%¤¤¤¤¤¤¤¤ %NAME% %RED%¤¤¤¤¤¤¤¤
+ItemDisplay[RARE ETH EQ7 !ID]: %GRAY%ETH %YELLOW%¤¤¤¤¤¤¤¤ %NAME% %RED%¤¤¤¤¤¤¤¤
 
 //CHARMS
 //Rerolling
@@ -324,8 +325,8 @@ ItemDisplay[MAG (amf OR ama OR am5) !ID]: %BLUE%%NAME%
 
 //Shop Items
 ItemDisplay[TABSK34=3]: %NAME% %PURPLE%+ War Cries
-ItemDisplay[EQ4 !ETH ID TABSK2>1 IAS=20]: %RED%ÃƒËœÃƒËœÃƒËœ %PURPLE%JAVA GLOVES %RED%ÃƒËœÃƒËœÃƒËœ
-ItemDisplay[EQ4 !ETH ID TABSK0>1 IAS=20]: %RED%ÃƒËœÃƒËœÃƒËœ %PURPLE%BOW GLOVES %RED%ÃƒËœÃƒËœÃƒËœ
+ItemDisplay[EQ4 !ETH ID TABSK2>1 IAS=20]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%JAVA GLOVES %RED%¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[EQ4 !ETH ID TABSK0>1 IAS=20]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%BOW GLOVES %RED%¤¤¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %NAME% %PURPLE% FOH
 
 //Socket Magic
@@ -344,8 +345,8 @@ ItemDisplay[(crs OR bsd OR lsd) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<
 ItemDisplay[(uit OR ush) NMAG SOCK=0 !ETH !RW]: %NAME% %ORANGE%[%SOCKETS%]
 
 //MAGIC //////////
-ItemDisplay[MAG EQ7 !ETH !ID]: %BLUE%%NAME% %YELLOW%Ã‚Â¤Ã‚Â¤
-ItemDisplay[MAG EQ7 ETH !ID]: %GRAY%ETH %BLUE%%NAME% %YELLOW%Ã‚Â¤Ã‚Â¤
+ItemDisplay[MAG EQ7 !ETH !ID]: %BLUE%%NAME% %YELLOW%¤¤¤¤¤¤¤¤
+ItemDisplay[MAG EQ7 ETH !ID]: %GRAY%ETH %BLUE%%NAME% %YELLOW%¤¤¤¤¤¤¤¤
 
 //Catchall My Magic Show!
 ItemDisplay[NMAG !ETH CLVL<20]: %NAME% %WHITE%[L%ILVL%]
@@ -355,7 +356,7 @@ ItemDisplay[MAG 7cr]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG !ETH !ID CLVL<20]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG ETH !ID CLVL<20]: %GRAY%ETH %BLUE%%NAME% %WHITE%[L%ILVL%]
 
-ItemDisplay[MAG (!EXC OR !ELT) !ID CLVL>19]:
+//ItemDisplay[MAG (!EXC OR !ELT) !ID CLVL>19]:
 
 ItemDisplay[MAG EXC !ETH !ID CLVL<40]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG EXC ETH !ID CLVL<40]: %GRAY%ETH %BLUE%%NAME% %WHITE%[L%ILVL%]
@@ -369,4 +370,5 @@ ItemDisplay[(MAG AND ELT) ETH !ID]: %GRAY%ETH %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[(EXC OR ELT) RARE !ETH !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[(EXC OR ELT) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME% %WHITE%[L%ILVL%]
 
-ItemDisplay[(MAG OR RARE) (!EXC OR !ELT) !ID CLVL>39]:
+//ItemDisplay[(MAG OR RARE) (!EXC OR !ELT) !ID CLVL>39]:
+//ItemDisplay[NMAG !RW CLVL>19]:
