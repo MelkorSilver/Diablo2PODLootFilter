@@ -1,6 +1,6 @@
 //Gereksiz's Loot filter (Updated Sep 3, 2020)
 //Find item orginal codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
-//Modified by Melkor for season 11 POD V1.1 (Updated 09/03/2021)
+//Modified by Melkor for season 11 POD V1.1.1 (Updated 09/03/2021)
 
 
 //Hide Gold Piles Smaller Than (<) X
@@ -276,7 +276,7 @@ ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs SK275>0 (SOCK=0 OR SOCK=3)]: %DARK_
 ItemDisplay[CL5 NMAG !RW !ETH (SK271>1 OR CLSK6>1 OR SK262>1 OR SK278>1)]: %DARK_GREEN%%NAME% %ORANGE%+ Assassin %ORANGE%[%SOCKETS%]
 
 ////Base Items - Monarch, War Pike, Thresher, Cryptic Axe, Colossus Voulge, Berserker Axe, Legend Sword, Superior Phase Blade
-ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91=10 (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %RED%[%SOCKETS%] [-10]
+ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91=10 (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91>5 (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[6rx !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
