@@ -1,6 +1,6 @@
 //Gereksiz's Loot filter (Updated Sep 3, 2020)
 //Find item orginal codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
-//Modified by Melkor for season 11 POD V1.1.1 (Updated 09/03/2021)
+//Modified by Melkor for season 11 POD V1.1.2 (Updated 09/03/2021)
 
 
 //Hide Gold Piles Smaller Than (<) X
@@ -279,7 +279,7 @@ ItemDisplay[CL5 NMAG !RW !ETH (SK271>1 OR CLSK6>1 OR SK262>1 OR SK278>1)]: %DARK
 ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91=10 (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91>5 (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[6rx !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[6rx !ETH !INF !RW NMAG (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[crs !ETH !RW NMAG (SOCK=4 OR SOCK=0) CLVL<60]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %NOTIFY-PURPLE%%MAP%%GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
