@@ -1,6 +1,6 @@
 //Gereksiz's Loot filter (Updated Sep 3, 2020)
 //Find item orginal codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
-//Modified by Melkor for season 11 POD (Updated 08/03/2021)
+//Modified by Melkor for season 11 POD (Updated 09/03/2021)
 
 
 //Hide Gold Piles Smaller Than (<) X
@@ -87,12 +87,12 @@ ItemDisplay[NMAG SOCK=1 !RW !leg]:
 ItemDisplay[INF !RW !leg]:
 
 ////RUNES
-ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07)]: %ORANGE%** %RUNENAME% ** [%RUNENUM%]
-ItemDisplay[(r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16)]: %MAP%%ORANGE%** %RUNENAME% ** [%RUNENUM%]
-ItemDisplay[(r17 OR r18 OR r19)]: %MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]
-ItemDisplay[r20]: %NL%%MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]%NL%
-ItemDisplay[(r21 OR r22 OR r23 OR r24 OR r25 OR r26)]: %NL%%NL%         %MAP%%PURPLE%|*****| %RUNENAME% |*****| [%RUNENUM%]         %NL%%NL%
-ItemDisplay[(r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33)]: %NL%%NL%         %MAP%%PURPLE%|*******| %RUNENAME% |*******| [%RUNENUM%]         %NL%%NL%
+ItemDisplay[RUNE<8]: %ORANGE%** %RUNENAME% ** [%RUNENUM%]
+ItemDisplay[(RUNE>7 AND RUNE<17)]: %MAP%%ORANGE%** %RUNENAME% ** [%RUNENUM%]
+ItemDisplay[(RUNE>16 AND RUNE<20)]: %MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]
+ItemDisplay[RUNE=20]: %NL%%MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]%NL%
+ItemDisplay[(RUNE>20 AND RUNE<27)]: %NL%%NL%         %MAP%%PURPLE%|*****| %RUNENAME% |*****| [%RUNENUM%]         %NL%%NL%
+ItemDisplay[(RUNE>26 AND RUNE<34)]: %NL%%NL%         %MAP%%PURPLE%|*******| %RUNENAME% |*******| [%RUNENUM%]         %NL%%NL%
 
 //GEMS
 //Gems Chipped
