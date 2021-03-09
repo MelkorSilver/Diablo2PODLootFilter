@@ -1,6 +1,6 @@
 //Gereksiz's Loot filter (Updated Sep 3, 2020)
 //Find item orginal codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
-//Modified by Melkor for season 11 POD (Updated 09/03/2021)
+//Modified by Melkor for season 11 POD V1.1 (Updated 09/03/2021)
 
 
 //Hide Gold Piles Smaller Than (<) X
@@ -35,21 +35,21 @@ ItemDisplay[fed]: %MAP%%GREEN%** Destruction [B] **
 ItemDisplay[toa]: %MAP%%GOLD%** Token of Absolution **
 
 //PoD Items
-ItemDisplay[cx5]: %MAP%%PURPLE%Orb of Corruption
+ItemDisplay[cx5]: %NOTIFY-PURPLE%%MAP%%PURPLE%Orb of Corruption
 ItemDisplay[cx8]: %MAP%%GREEN%Orb of Enchantment
-ItemDisplay[cx7]: %MAP%%PURPLE%*** KEY OF CHAOS ***
+ItemDisplay[cx7]: %NOTIFY-PURPLE%%MAP%%PURPLE%*** KEY OF CHAOS ***
 ItemDisplay[cx6]: %MAP%%ORANGE%Diablo's Soulstone
 ItemDisplay[maz]: %PURPLE%%NAME%
-ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11)]: %MAP%%RED%%NAME%
+ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11)]: %NOTIFY-RED%%MAP%%RED%%NAME%
 
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 
 //Uber Keys
-ItemDisplay[pk1]: %MAP%%GREEN%*** Terror %YELLOW%[C] %GREEN%***
-ItemDisplay[pk2]: %MAP%%GREEN%*** Hate %BLUE%[S] %GREEN%***
-ItemDisplay[pk3]: %MAP%%GREEN%*** Destruction %RED%[N] %GREEN%***
-ItemDisplay[dhn OR bey OR mbr]: %MAP%%PURPLE%%NAME%
+ItemDisplay[pk1]: %NOTIFY-GREEN%%MAP%%GREEN%*** Terror %YELLOW%[C] %GREEN%***
+ItemDisplay[pk2]: %NOTIFY-GREEN%%MAP%%GREEN%*** Hate %BLUE%[S] %GREEN%***
+ItemDisplay[pk3]: %NOTIFY-GREEN%%MAP%%GREEN%*** Destruction %RED%[N] %GREEN%***
+ItemDisplay[dhn OR bey OR mbr]: %NOTIFY-PURPLE%%MAP%%PURPLE%%NAME%
 //Ear
 ItemDisplay[ear]: %ORANGE%%NAME%
 
@@ -88,11 +88,11 @@ ItemDisplay[INF !RW !leg]:
 
 ////RUNES
 ItemDisplay[RUNE<8]: %ORANGE%** %RUNENAME% ** [%RUNENUM%]
-ItemDisplay[(RUNE>7 AND RUNE<17)]: %MAP%%ORANGE%** %RUNENAME% ** [%RUNENUM%]
-ItemDisplay[(RUNE>16 AND RUNE<20)]: %MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]
-ItemDisplay[RUNE=20]: %NL%%MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]%NL%
-ItemDisplay[(RUNE>20 AND RUNE<27)]: %NL%%NL%         %MAP%%PURPLE%|*****| %RUNENAME% |*****| [%RUNENUM%]         %NL%%NL%
-ItemDisplay[(RUNE>26 AND RUNE<34)]: %NL%%NL%         %MAP%%PURPLE%|*******| %RUNENAME% |*******| [%RUNENUM%]         %NL%%NL%
+ItemDisplay[(RUNE>7 AND RUNE<17)]: %NOTIFY-ORANGE%%MAP%%ORANGE%** %RUNENAME% ** [%RUNENUM%]
+ItemDisplay[(RUNE>16 AND RUNE<20)]: %NOTIFY-ORANGE%%MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]
+ItemDisplay[RUNE=20]: %NL%%NOTIFY-PURPLE%%MAP%%ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]%NL%
+ItemDisplay[(RUNE>20 AND RUNE<27)]: %NL%%NL%         %NOTIFY-PURPLE%%MAP%%PURPLE%|*****| %RUNENAME% |*****| [%RUNENUM%]         %NL%%NL%
+ItemDisplay[(RUNE>26 AND RUNE<34)]: %NL%%NL%         %NOTIFY-PURPLE%%MAP%%PURPLE%|*******| %RUNENAME% |*******| [%RUNENUM%]         %NL%%NL%
 
 //GEMS
 //Gems Chipped
@@ -169,15 +169,15 @@ ItemDisplay[MAG (xit OR uit)]: %NAME%%GREEN% [S]
 ItemDisplay[MAG (xmg OR umg)]: %NAME%%BLUE% [H]
 
 //PURPLE UNIQUES
-ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %NL%%NL%         %MAP%%PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤         %NL%%NL%
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %NL%%NL%         %MAP%%PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤         %NL%%NL%
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %NL%%MAP%%GRAY%ETH %PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%
+ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %NL%%NL%         %NOTIFY-PURPLE%%MAP%%PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤         %NL%%NL%
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %NL%%NL%         %NOTIFY-PURPLE%%MAP%%PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤         %NL%%NL%
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %NL%%NOTIFY-PURPLE%%MAP%%GRAY%ETH %PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%
 ItemDisplay[UNI lbl !ID !ETH]: %NAME%
 ItemDisplay[UNI lbl !ID ETH]: %NAME%
 
 //RED UNIQUES
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR uhg OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR 8lw OR uml OR xpk OR 7sp OR bac OR xtp OR nef OR 6sw OR uts) !ID !ETH]: %MAP%%RED%¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR uhg OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr OR 7bk OR uml OR xpk) !ID ETH]: %MAP%%GRAY%ETH %RED%¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR uhg OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR 8lw OR uml OR xpk OR 7sp OR bac OR xtp OR nef OR 6sw OR uts) !ID !ETH]: %NOTIFY-RED%%MAP%%RED%¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR uhg OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr OR 7bk OR uml OR xpk) !ID ETH]: %NOTIFY-RED%%MAP%%GRAY%ETH %RED%¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤
 
 //UNIQUE CHARMS
 ItemDisplay[UNI (cm1 OR cm2 OR cm3 OR cm4) !ID]: %ORANGE%*** %NAME% ***
@@ -276,22 +276,22 @@ ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs SK275>0 (SOCK=0 OR SOCK=3)]: %DARK_
 ItemDisplay[CL5 NMAG !RW !ETH (SK271>1 OR CLSK6>1 OR SK262>1 OR SK278>1)]: %DARK_GREEN%%NAME% %ORANGE%+ Assassin %ORANGE%[%SOCKETS%]
 
 ////Base Items - Monarch, War Pike, Thresher, Cryptic Axe, Colossus Voulge, Berserker Axe, Legend Sword, Superior Phase Blade
-ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91=10 (SOCK=4 OR SOCK=0)]: %MAP%%DARK_GREEN%%NAME% %RED%[%SOCKETS%] [-10]
-ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91>5 (SOCK=4 OR SOCK=0)]: %MAP%%DARK_GREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[6rx !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[crs !ETH !RW NMAG (SOCK=4 OR SOCK=0) CLVL<60]: %MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %MAP%%GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[7p7 ETH !RW NMAG (SOCK=6 OR SOCK=0)]: %MAP%%GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[72h ETH !RW NMAG (SOCK=3 OR SOCK=0)]: %MAP%%GRAY%ETH %DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[7wa ETH !RW NMAG (SOCK=0 OR SOCK=4 OR SOCK=5 OR SOCK=6)]: %MAP%%GRAY%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[(7gd OR 7fb) ETH !RW NMAG (SOCK=0 OR SOCK=5 OR SOCK=6)]: %MAP%%GRAY%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[SUP 7cr !ETH (SOCK=0 OR SOCK=4 OR SOCK=5)]: %MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91=10 (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %RED%[%SOCKETS%] [-10]
+ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91>5 (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[6rx !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[crs !ETH !RW NMAG (SOCK=4 OR SOCK=0) CLVL<60]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %NOTIFY-PURPLE%%MAP%%GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[7p7 ETH !RW NMAG (SOCK=6 OR SOCK=0)]: %NOTIFY-PURPLE%%MAP%%GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[72h ETH !RW NMAG (SOCK=3 OR SOCK=0)]: %NOTIFY-DARK_GREEN%%MAP%%GRAY%ETH %DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[7wa ETH !RW NMAG (SOCK=0 OR SOCK=4 OR SOCK=5 OR SOCK=6)]: %NOTIFY-DARK_GREEN%%MAP%%GRAY%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[(7gd OR 7fb) ETH !RW NMAG (SOCK=0 OR SOCK=5 OR SOCK=6)]: %NOTIFY-DARK_GREEN%%MAP%%GRAY%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[SUP 7cr !ETH (SOCK=0 OR SOCK=4 OR SOCK=5)]: %NOTIFY-DARK_GREEN%%MAP%%DARK_GREEN%%NAME% %ORANGE%[%SOCKETS%]
 
 //Body Armors:
-ItemDisplay[NMAG (xtp OR uui OR utp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=15 !SOCK=1]: %MAP%%MAP%%PURPLE%%NAME% +15%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) ETH !RW ED=15 !SOCK=1]: %MAP%%GRAY%ETH %PURPLE%%NAME% +15%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=15 !SOCK=1]: %NOTIFY-PURPLE%%MAP%%PURPLE%%NAME% +15%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) ETH !RW ED=15 !SOCK=1]: %NOTIFY-PURPLE%%MAP%%GRAY%ETH %PURPLE%%NAME% +15%ED %RED%[%SOCKETS%]
 ItemDisplay[NMAG ltp !ETH !RW ED=15 !SOCK=1]: %DARK_GREEN%%NAME% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[NMAG ltp ETH !RW ED=15 !SOCK=1]: %GRAY%ETH %DARK_GREEN%%NAME% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=14 !SOCK=1]: %DARK_GREEN%%NAME% +14%ED %RED%[%SOCKETS%]
