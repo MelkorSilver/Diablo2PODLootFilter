@@ -28,11 +28,11 @@ ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%m2
 ItemDisplay[mp3 CLVL<30]: %BLUE%!%WHITE%m3
 
 //Essences (Respec Token)
-ItemDisplay[tes]: %MAP%%BLUE%** Suffering [A] **
-ItemDisplay[ceh]: %MAP%%YELLOW%** Hatred [M] **
-ItemDisplay[bet]: %MAP%%ORANGE%** Terror [D] **
-ItemDisplay[fed]: %MAP%%GREEN%** Destruction [B] **
-ItemDisplay[toa]: %MAP%%GOLD%** Token of Absolution **
+ItemDisplay[tes]: %NOTIFY-BLUE%%MAP%%BLUE%** Suffering [A] **
+ItemDisplay[ceh]: %NOTIFY-YELLOW%%MAP%%YELLOW%** Hatred [M] **
+ItemDisplay[bet]: %NOTIFY-ORANGE%%MAP%%ORANGE%** Terror [D] **
+ItemDisplay[fed]: %NOTIFY-GREEN%%MAP%%GREEN%** Destruction [B] **
+ItemDisplay[toa]: %NOTIFY-GOLD%%MAP%%GOLD%** Token of Absolution **
 
 //PoD Items
 ItemDisplay[cx5]: %NOTIFY-PURPLE%%MAP%%PURPLE%Orb of Corruption
@@ -180,7 +180,7 @@ ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR 
 ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR uhg OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr OR 7bk OR uml OR xpk) !ID ETH]: %NOTIFY-RED%%MAP%%GRAY%ETH %RED%¤¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤¤
 
 //UNIQUE CHARMS
-ItemDisplay[UNI (cm1 OR cm2 OR cm3 OR cm4) !ID]: %ORANGE%*** %NAME% ***
+ItemDisplay[UNI (cm1 OR cm2 OR cm3 OR cm4) !ID]: %NAME%
 
 //Rest of the Uniques:
 ItemDisplay[UNI !ID !ETH]: %NAME%
