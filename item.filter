@@ -337,8 +337,8 @@ ItemDisplay[NMAG !ETH !RW (SOCK>1 AND !SOCK=0)]: %NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW (SOCK>1 AND !SOCK=0)]: ETH %NAME% %ORANGE%[%SOCKETS%]
 
 //NON-ED (Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) (SOCK=0 AND !ETH) !RW]: %NAME%
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) (SOCK=0 AND ETH) !RW]: %GRAY%ETH %WHITE%%NAME%
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) (SOCK=0 AND !ETH) !INF !RW]: %NAME%
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) (SOCK=0 AND ETH) !INF !RW]: %GRAY%ETH %WHITE%%NAME%
 
 //SPIRIT 4 soc larzuk
 ItemDisplay[(crs OR bsd OR lsd) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<40]: %DARK_GREEN%%NAME%%WHITE% (4sox at larzuk) %WHITE%[L%ILVL%]
