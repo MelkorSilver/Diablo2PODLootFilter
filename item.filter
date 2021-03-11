@@ -358,7 +358,7 @@ ItemDisplay[MAG 7cr]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG !ETH !ID CLVL<20]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG ETH !ID CLVL<20]: %GRAY%ETH %BLUE%%NAME% %WHITE%[L%ILVL%]
 
-ItemDisplay[MAG (!EXC OR !ELT) !ID CLVL>19]:
+//ItemDisplay[MAG (!EXC OR !ELT) !ID CLVL>19]:
 
 ItemDisplay[MAG EXC !ETH !ID CLVL<40]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG EXC ETH !ID CLVL<40]: %GRAY%ETH %BLUE%%NAME% %WHITE%[L%ILVL%]
@@ -372,6 +372,6 @@ ItemDisplay[(MAG AND ELT) ETH !ID]: %GRAY%ETH %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[(EXC OR ELT) RARE !ETH !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[(EXC OR ELT) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME% %WHITE%[L%ILVL%]
 
-ItemDisplay[(MAG OR RARE) (!EXC OR !ELT) !ID CLVL>39]:
-ItemDisplay[NMAG !RW CLVL>19]:
+//ItemDisplay[(MAG OR RARE) (!EXC OR !ELT) !ID CLVL>39]:
+//ItemDisplay[NMAG !RW CLVL>19]:
 
