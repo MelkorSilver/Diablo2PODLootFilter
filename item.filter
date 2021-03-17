@@ -1,14 +1,13 @@
 //Gereksiz's Loot filter (Updated Sep 3, 2020)
 //Find item orginal codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
-//Modified by Melkor for season 11 POD V1.4.3 (Updated 11/03/2021)
+//Modified by Melkor for season 11 POD V1.4.4 (Updated 11/03/2021)
 
 
 //Hide Gold Piles Smaller Than (<) X
-ItemDisplay[CLVL<5 GOLD<50]:
-ItemDisplay[CLVL<10 GOLD<100]:
-ItemDisplay[CLVL<20 GOLD<500]:
-ItemDisplay[CLVL<40 GOLD<1000]:
-ItemDisplay[CLVL>39 GOLD<5000]:
+ItemDisplay[GOLD>99 (CLVL<40 AND CLVL>0)]: %NAME%
+ItemDisplay[GOLD>999 (CLVL>39 AND CLVL<60)]: %NAME%
+ItemDisplay[GOLD>999 (CLVL>59 AND CLVL<70)]: %NAME%
+ItemDisplay[GOLD>4999 CLVL>69]: %NAME%
 
 //Health & Mana Potions
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
