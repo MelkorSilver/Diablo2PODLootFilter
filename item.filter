@@ -117,7 +117,7 @@ ItemDisplay[cm1 OR cm3 MAG !ID]: %DOT-9B%%RED%%NAME%%WHITE% [L%ILVL%]
 ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %PX-68%%PURPLE%*** %NAME% %PURPLE%***
 ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%GRAY%[L%ILVL%]
 
-//Good Charms kryszard
+//Good Charms
 ItemDisplay[cm3 (MAXDMG>6 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm
 ItemDisplay[cm3 (MAXDMG>6 AND FRW>0)]: %TAN%Max Dmg %ORANGE%frw %BLUE%Grand Charm
 ItemDisplay[cm3 (MAXDMG>6 AND FHR>0)]: %TAN%Max Dmg %ORANGE%FHR %BLUE%Grand Charm
@@ -174,7 +174,7 @@ ItemDisplay[cm1 !UNI PRES>9]: %GREEN%Psn %WHITE%Res %BLUE%Small Charm
 ItemDisplay[cm1 MFIND>5]: %GREEN%MF %BLUE%Small Charm
 ItemDisplay[cm1 LIFE>16]: %RED%Life %BLUE%Small Charm
 
-//Skillers kryszard
+//Skillers
 ItemDisplay[cm3 (TABSK0>0 AND FHR>0)]: %PURPLE%Bow and Crossbow %TAN%Skiller %WHITE%+ %ORANGE%FHR
 ItemDisplay[cm3 (TABSK2>0 AND FHR>0)]: %PURPLE%Javelin and Spear %TAN%Skiller %WHITE%+ %ORANGE%FHR
 ItemDisplay[cm3 (TABSK1>0 AND FHR>0)]: %PURPLE%Passive and Magic %TAN%Skiller %WHITE%+ %ORANGE%FHR
